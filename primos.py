@@ -1,7 +1,7 @@
 import time
 
 def primos(max):
-    n1 = 10000
+    n1 = 0
     count = 0
     divisible = 0
 
@@ -22,4 +22,4 @@ if __name__ == '__main__':
     numbers = primos(100000000000000000000000000000000)
     for i in numbers:
         print(i)
-        time.sleep(0.1)         
+        
